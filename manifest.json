@@ -10,9 +10,9 @@
         "default_popup": "extension.html"
     },
 
-    /*"permissions": [
-        "tabs", "http://www.lemonde.fr/*"
-    ],*/
+    "permissions": [
+        "tabs"
+    ],
 
     "content_scripts": [
         {
