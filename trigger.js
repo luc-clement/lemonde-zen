@@ -4,7 +4,7 @@ $(document).ready(function() {
     var intervalId = setInterval(launchZen, 200);
 
     setTimeout(function() {
-        console.log('clear interval');
+        // console.log('clear interval');
         clearInterval(intervalId);
     }, 3000);
 });
