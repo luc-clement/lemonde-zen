@@ -6,8 +6,11 @@
     "version": "1.0",
 
     "browser_action": {
-        "default_icon": "lemondezen.png",
-        "default_popup": "extension.html"
+        "default_icon": "lemondezen.png"
+    },
+
+    "background":{
+        "scripts":["extension.js"]
     },
 
     "permissions": [
@@ -17,7 +20,7 @@
     "content_scripts": [
         {
             "matches": ["http://www.lemonde.fr/*"],
-            "css": ["executed.css"]
+            "css": ["lemonde.css"]
         }
     ]
 }
