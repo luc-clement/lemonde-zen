@@ -14,13 +14,14 @@
     },
 
     "permissions": [
-        "tabs"
+        "tabs", "activeTab"
     ],
 
     "content_scripts": [
         {
-            "matches": ["http://www.lemonde.fr/*"],
-            "css": ["lemonde.css"]
+            "matches": ["http://www.lemonde.fr/*article*"],
+            "css": ["lemonde.css"],
+            "js":["jquery.min.js", "trigger.js"]
         }
     ]
 }
