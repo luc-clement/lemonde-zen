@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "name": "Le Monde Zen",
+    "description": "This extension allows people to browse leMonde.fr quietly",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "lemondezen.png",
+        "default_popup": "extension.html"
+    },
+
+    /*"permissions": [
+        "tabs", "http://www.lemonde.fr/*"
+    ],*/
+
+    "content_scripts": [
+        {
+            "matches": ["http://www.lemonde.fr/*"],
+            "css": ["executed.css"]
+        }
+    ]
+}
