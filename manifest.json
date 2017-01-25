@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "Le Monde Zen",
-    "description": "This extension allows people to browse leMonde.fr quietly",
+    "description": "Cette extension permet de surfer sur lemonde.fr en mode zen sans être abonné ainsi que d'avoir accès aux articles premium dans ce mode",
     "version": "1.0",
 
     "browser_action": {
