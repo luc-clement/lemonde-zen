@@ -2,8 +2,8 @@
     "manifest_version": 2,
 
     "name": "Le Monde Zen",
-    "description": "Cette extension permet de surfer sur lemonde.fr en mode zen sans être abonné ainsi que d'avoir accès aux articles premium",
-    "version": "1.0.1",
+    "description": "Surfez gratuitement en mode de lecture Zen sur lemonde.fr et accédez aux articles premium sans abonnement !",
+    "version": "1.1.0",
 
     "browser_action": {
         "default_icon": "images/icon.png",
