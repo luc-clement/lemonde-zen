@@ -1,13 +1,21 @@
-$(document).ready(function() {
-    // TRY HARD MODE
-    // Try to launch mode zen for 3 seconds at 5Hz
-    var intervalId = setInterval(launchZen, 200);
+chrome.storage.sync.get('autozen', function(result) {
+    var autozen = !!result.autozen;
 
-    setTimeout(function() {
-        // console.log('clear interval');
-        clearInterval(intervalId);
-    }, 3000);
+    if (autozen) {
+        $(document).ready(function() {
+            // TRY HARD MODE
+            // Try to launch mode zen for 3 seconds at 5Hz
+            var intervalId = setInterval(launchZen, 200);
+
+            setTimeout(function() {
+                // console.log('clear interval');
+                clearInterval(intervalId);
+            }, 3000);
+        });
+    }
+
 });
+
 
 function launchZen() {
     if (!!$('.overlay.lecture_zen').length) {

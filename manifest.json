@@ -6,15 +6,12 @@
     "version": "1.0.1",
 
     "browser_action": {
-        "default_icon": "images/logolemonde.png"
-    },
-
-    "background":{
-        "scripts":["scripts/extension.js"]
+        "default_icon": "images/logolemonde.png",
+        "default_popup": "scripts/popup.html"
     },
 
     "permissions": [
-        "tabs", "activeTab"
+        "tabs", "activeTab", "storage"
     ],
 
     "content_scripts": [
