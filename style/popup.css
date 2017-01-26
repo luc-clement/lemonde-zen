@@ -9,6 +9,14 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
 }
 
+#link-lemonde {
+    font-size: 50%;
+    cursor: pointer;
+}
+
+/**
+ *  Align Checkbox
+ */
 label.custom-control.custom-checkbox {
     align-items: center;
 }

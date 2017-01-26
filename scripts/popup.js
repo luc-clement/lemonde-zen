@@ -13,3 +13,9 @@ autozenCheckbox.on('click', function() {
         console.log('Autozen mode set to', autozen);
     });
   });
+
+$('#link-lemonde').on('click', function() {
+    chrome.tabs.create({
+        'url': 'http://www.lemonde.fr/'
+    });
+});
