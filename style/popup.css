@@ -1,0 +1,18 @@
+body {
+    font-family: "Baskerville", "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+    padding: 10px;
+    width: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    white-space: nowrap;
+}
+
+label.custom-control.custom-checkbox {
+    align-items: center;
+}
+
+span.custom-control-indicator {
+    top: auto;
+}
