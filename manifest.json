@@ -6,11 +6,11 @@
     "version": "1.0.1",
 
     "browser_action": {
-        "default_icon": "logolemonde.png"
+        "default_icon": "images/logolemonde.png"
     },
 
     "background":{
-        "scripts":["extension.js"]
+        "scripts":["scripts/extension.js"]
     },
 
     "permissions": [
@@ -20,8 +20,8 @@
     "content_scripts": [
         {
             "matches": ["http://www.lemonde.fr/*article*"],
-            "css": ["lemonde.css"],
-            "js":["jquery.min.js", "trigger.js"]
+            "css": ["style/lemonde.css"],
+            "js":["scripts/jquery.min.js", "scripts/trigger.js"]
         }
     ]
 }
